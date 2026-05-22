@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -L --max-time 30 -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://www.brainroots.com\")",
+      "Bash(curl -sv -L --max-time 30 -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36\" \"https://www.brainroots.com\")",
+      "Bash(curl -sk -L --max-time 30 -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36\" \"https://brainroots.com\")",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/aboutus.html\")",
+      "Bash(python3 -c \"import sys,re; html=sys.stdin.read\\(\\); text=re.sub\\(r'<[^>]+>','',html\\); print\\(text[:3000]\\)\")",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/products.html\")",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/telecombss.html\")",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/industrysolutions.html\")",
+      "Bash(python3 -c \"import sys,re; html=sys.stdin.read\\(\\); text=re.sub\\(r'<[^>]+>','',html\\); text=re.sub\\(r'\\\\s+',' ',text\\); print\\(text[:2500]\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/contactus.html\")",
+      "Bash(curl -sk -L --max-time 15 -A \"Mozilla/5.0\" \"https://brainroots.com/clients.html\")",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npm --version)",
+      "Read(//Users/vivek/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew list *)",
+      "Bash(env)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh -o /tmp/install_nvm.sh)",
+      "Bash(bash /tmp/install_nvm.sh)"
+    ]
+  }
+}
