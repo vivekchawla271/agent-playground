@@ -24,7 +24,7 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.gif" alt="BrainRoots Logo" width={160} height={50} className="h-10 w-auto" />
+            <Image src="/logo.gif" alt="BrainRoots Logo" width={172} height={61} className="h-10 w-auto" priority unoptimized />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">

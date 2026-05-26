@@ -26,8 +26,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
-            <div className="mb-4">
-              <Image src="/logo.gif" alt="BrainRoots Logo" width={160} height={50} className="h-10 w-auto" />
+            <div className="mb-4 inline-block bg-white rounded px-2 py-1">
+              <Image src="/logo.gif" alt="BrainRoots Logo" width={172} height={61} className="h-9 w-auto" unoptimized />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">
               Convergent Billing & Customer Care solutions for telecom operators
