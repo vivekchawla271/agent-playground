@@ -12,7 +12,7 @@ const contactDetails = [
   {
     icon: Phone,
     title: "Phone",
-    lines: ["+91-9810042232"],
+    lines: ["+91-9810042232", "+1-650-788-9788"],
   },
   {
     icon: Mail,
