@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -25,13 +26,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-teal-600 text-white font-bold text-sm">
-                BR
-              </div>
-              <span className="font-bold text-lg text-white tracking-tight">
-                Brain<span className="text-teal-400">Roots</span>
-              </span>
+            <div className="mb-4">
+              <Image src="/logo.gif" alt="BrainRoots Logo" width={160} height={50} className="h-10 w-auto" />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">
               Convergent Billing & Customer Care solutions for telecom operators
