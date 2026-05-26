@@ -93,8 +93,8 @@ export function Footer() {
               </li>
               <li className="flex gap-3 text-sm text-gray-400">
                 <Mail size={16} className="text-teal-400 mt-0.5 shrink-0" />
-                <a href="mailto:info@brainroots.com" className="hover:text-teal-400 transition-colors">
-                  info@brainroots.com
+                <a href="mailto:vivek.chawla@brainroots.com" className="hover:text-teal-400 transition-colors">
+                  vivek.chawla@brainroots.com
                 </a>
               </li>
             </ul>

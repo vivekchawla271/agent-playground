@@ -17,7 +17,7 @@ const contactDetails = [
   {
     icon: Mail,
     title: "Email",
-    lines: ["info@brainroots.com", "marketing@brainroots.com"],
+    lines: ["vivek.chawla@brainroots.com", "chawla.vivek@gmail.com"],
   },
   {
     icon: Clock,
